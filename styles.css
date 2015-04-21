@@ -1,0 +1,33 @@
+
+table input,table textarea{
+    border: none;
+    height:auto;
+}
+
+
+td, th {
+    text-align: center;
+    background-color: transparent;
+    width:100px;
+    padding:10px;
+    border:1px solid;
+}
+
+table {
+    width:960px;
+    border:1px solid;
+    border-collapse: collapse;
+}
+
+   input[type=text] {
+    height: XXpx;
+    width: YYpx;
+    }
+
+select{
+		width:150px;
+}
+
+.thumbnail{
+    width:150px;
+}
