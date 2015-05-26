@@ -1,0 +1,452 @@
+/*********************************************************************************/
+/* Page Style                                                                    */
+/*********************************************************************************/
+
+	html {
+		background: #262626;
+	}
+	
+	body {
+		background: #24c3be;
+		font: 13px/19px "Open Sans",Arial,Helvetica,sans-serif;
+		margin: 0;
+	}
+	
+	h2 {
+		font-weight: 400;
+	}
+	
+	h3 {
+		color: rgba(255, 255, 255, 0.9);
+		font-family: cursive;
+		font-weight: normal;
+		font-size: 24px;
+		margin:8px 0;
+	}
+	
+	h4 {
+		color: #454445;
+		font-family: "Open Sans", sans-serif;
+		font-size: 25px;
+		font-weight: 600;
+		margin: 0px;
+	}
+	
+	h5 {
+		font-size: 18px;
+		font-weight: 600;
+		margin: 10px 0 0 0;
+		color: #454445;
+	}
+	
+	.divider { 
+		height: 2px;  
+		margin-bottom: 10px;
+		background: transparent url(../dash.png) repeat-x scroll left center;
+	}
+
+/*********************************************************************************/
+/* Site Top                                                               		 */
+/*********************************************************************************/
+
+	/* Header */
+	#header {
+		color: white;
+		font-family: "Handlee";
+		font-size: 15px;
+		background: #262626;
+	}
+	
+	#header h1 {
+		float: left;
+		font-size: 40px;
+		width: 390px;
+		line-height: 40px;
+		margin: 10px 0 0 20px;
+	}
+	
+	#logo {
+		float: left;
+	}
+	
+	/* Navigation Bar */
+	#navbar {
+		background-color: #4d4d4d;
+		padding:10px;
+	}
+	
+	#topnav {
+		float: left;
+		padding-left: 30px;
+		padding-top: 20px;
+	}
+	
+	#topnavbar {
+		margin: 0 auto;
+		width: 960px;
+	}
+	
+	#logobar {
+		overflow: auto;
+		width: 960px;
+		margin: 15px auto;
+	}
+	
+	#menu-item {
+		display: inline-block;
+		list-style: none;
+		padding: 10px;	
+		margin-left: 20px;
+	}
+	
+	#menu-item a {
+		color: white;
+		text-decoration: none;
+		font-size: 25px;
+		text-transform: uppercase;
+	}
+	
+	#menu-item:hover {
+		background-color: #680e4b;
+		border-radius: 5px;
+	}
+	
+	i {
+		color: white;
+		margin-right: 10px;
+		font-size: 25px;
+	}
+	
+	.selected {
+		background-color: #24c3be;
+		border-radius: 5px;
+	}
+
+/*********************************************************************************/
+/* Content                                                                       */
+/*********************************************************************************/
+
+	#content{
+		min-width: 980px;
+		background: #F4F3F2 none repeat scroll 0% 0%;
+	}
+	
+	#content h1 {
+		margin: 10px 0 0px 0px;
+		color: #3A231C;
+		margin: 30px 0px 15px 6px;
+		font-weight: 400;
+		font-size: 2.8em;
+		color: #323232;
+	}
+	
+	#content a {
+		font-weight: bold;
+		color: #24c3be;
+		font-size: 20px;
+		transition: all 0.3s ease 0s;
+	}
+	
+	#content_home{
+		width:1160px;
+		margin:0 auto;
+		overflow:auto;
+		padding-top:40px;
+	}
+	
+	#content_home_image{
+		width: 246px;
+		height: 209px;
+		border-width: 5px;
+		border-style: solid;
+		border-color: rgb(233, 229, 226);
+		overflow: hidden;
+		text-align: center;
+		line-height: 209px;
+		float:left;
+	}
+	
+	#content_text {
+		margin-left: 15px;
+		width: 50%;
+		float: left;
+	}
+	
+	#content_text p {
+		color: #454445;
+		font-size: 16px;
+	}
+	
+	#content_text h2 {
+		margin: 0;
+	}
+	
+	#content_main .notice_banner:nth-child(2n) {color: #24c3be;}
+	#content_main .notice_banner:nth-child(2n+1) {color: #9c1570;}
+	#content_main .notice_banner:nth-child(2n+1) .notice_content {color: #680e4b;}
+	#content_main .notice_banner:nth-child(2n) .notice_content { color: #1c9c98; }
+	
+	/* Member Sign Up */
+	#signup_text {
+		z-index: 100;
+		top: 700px;
+		position: absolute;
+		width: 300px;
+		text-align: center;
+	}
+	
+	#signup_text h2 {
+		font-family: cursive;
+		font-size: 35px;
+		line-height: 40px;
+		color: rgba(255,255,255, 0.9);
+		text-transform: uppercase;
+		margin: 15px 0;
+	}
+	
+	#signup_text p {
+		color: rgba(246,186,227,0.7);
+		font-size: 17px;
+		margin: 15px 0px;
+	}
+		
+	#signup_text a {
+		text-decoration: none;
+	}
+
+	#signup_text .button-link p {
+		color: white;
+		font-weight: bold;
+		font-size: 20px;
+		margin: 0;
+	}
+	
+	.button-link {
+		background-color: #262626;
+		color: white;
+		margin-left: 80px;
+		margin-top: 10px;
+		width: 120px;
+		padding: 10px 10px;
+	}
+	
+	
+	/* Text Content */
+	#content_main{
+		width:620px;
+		float:left;
+	}
+	
+	#content_main img {
+		position: relative;
+		z-index: 2;
+	}
+	
+	/* Side Bar */
+	#content_sidebar{
+		float:right;
+		width: 375px;
+		height: 870px;
+		background: #E5E1DB none repeat scroll 0% 0%;
+		margin-left: 20px;
+	}
+	
+	#content_sidebar p {
+		font-weight: 300;
+	}
+	
+	.content_sidebar_header {
+		height: 45px;
+		background: #262626 repeat-x scroll left top; 
+		border-radius: 4px 4px 0px 0px;
+	}
+	
+	.content_sidebar_header h3 {
+		margin: 0;
+		text-align: center;
+		padding-top: 10px;
+	}
+	
+	#content_sidebar_event, #content_sidebar_featured, #content_sidebar_infobox {
+		padding: 10px;
+	}
+	
+	#content_sidebar_event p {
+		margin: 2px;
+	}
+
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+	footer {
+		background-color: #262626;
+		height: 200px;
+	}
+	
+	.footer_main {
+    	padding-bottom: 50px;
+		margin: 30px auto 0 10%;
+        overflow: auto;
+	}
+	
+	.footer_main h2 {
+		margin: 36px 0px 0px;
+		font: 600 20px/20px "Open Sans",Arial,sans-serif;
+		color: #FFF;
+		text-transform: uppercase;
+	}
+	
+	.footer_main p {
+		color: #7F7F7F;
+		margin-top: 24px;
+	}
+	
+	.footer_main_grid {
+		width: 375px;
+		display: inline;
+		margin-right: 10px;
+		float: left;
+	}
+	
+	.box {
+		vertical-align: middle;
+		display: table-cell;
+		height: 80px;
+	}
+	
+	.txt1 {
+		font: 600 13px/20px "Open Sans",Arial,sans-serif;
+		text-transform: uppercase;
+	}
+	
+	.link1 {
+		text-decoration: none;
+		cursor: pointer;
+		color: #24c3be;
+	}
+	
+	.wrapper i, .banner2 i {
+		color: #595959;
+		width: 55px;
+		top: 3px;
+		float: left;
+	}
+	
+	/* Contact Us */
+	.contact_grid {
+		background-color: #24c3be;
+	}
+	
+	.banner2 {
+		background: #3D3D3D none repeat scroll 0% 0%;
+		display: inline-block;
+		width: 100%;
+		box-sizing: border-box;
+		padding-right: 10px;
+		margin-top: 10px;
+		height: 90px;
+	}
+	
+	.banner2 h3 {
+		margin: 0px;
+		font: 600 17px/17px "Open Sans",Arial,sans-serif;
+		color: #C83939;
+		text-transform: uppercase;
+		position: relative;
+	}
+	
+	.banner2 p {
+		margin: 1px 0 0 0;
+		color: #FFF;
+	}
+	
+	.banner2 .fa {
+		height: 80px;
+		width: 80px;
+		background: #24c3be;
+	}
+	
+	.fa-phone {
+		font-size: 75px;
+		text-align: center;
+		padding: 5px;
+	}
+
+	.fa-laptop {
+		font-size: 75px;
+		text-align: center;
+		padding: 5px;
+	}
+	
+	.fa-home {
+		font-size: 77px;
+		text-align: center;
+		padding: 5px;
+	}
+	
+	.fa-envelope-o {
+		font-size: 75px;
+		text-align: center;
+		padding: 5px;
+	}
+	
+	/* Bottom Footer */
+	
+	.footer_contact{
+		width: 100%;
+		padding: 10px 0 10px;
+		background-color:#24c3be;
+    	position: absolute;
+	}
+	
+	.footer_contact p {
+		color: #FFF;
+		margin: 0px;
+		font-weight: bold;
+	}
+	
+	.footer_bottom {
+		text-align: center
+	}
+
+/*********************************************************************************/
+/* History Page                                                           		 */
+/*********************************************************************************/
+
+	#history_circle {
+		float: left;
+		position: relative;
+		margin-top: 20px;
+	}
+	
+	.history_year {
+		z-index: 30;
+		text-align: center;
+		position: absolute;
+		left: 13px;
+		top: 35px;
+		color: white;
+		font: 26px/15px "Handlee";
+		text-shadow: 1px 1px 1px #262626;
+	}
+	
+	.history_content {
+		float: left;
+		width: 80%;
+		margin-left: 20px;
+		height: 100%;
+	}
+	
+	.history_content > p {
+		vertical-align: middle;
+		display: table-cell;
+		height: 120px;
+	}
+	
+	.timeline_banner {
+		overflow: auto;
+		height: 120px;
+	}
+	
+	//http://www.templatemonster.com/demo/46915.html
+	//http://www.templatemonster.com/demo/53621.html
