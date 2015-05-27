@@ -1,0 +1,221 @@
+# assignment
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Townsville Music Centre</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" rel="stylesheet" />
+<link href="css/default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/fonts.css" rel="stylesheet" type="text/css" media="all" />
+
+
+    <link href='http://fonts.googleapis.com/css?family=Patrick+Hand' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Handlee' rel='stylesheet' type='text/css'>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <div id="header" class="header">
+        <div id="logobar">
+    <img id="logo" src="TCMC98Neg.gif">
+<h1>Townsville Community <br> Music Centre</h1>
+</div>
+    <div id="navbar">
+<ul id="topnavbar">
+<li id="menu-item"><i class="fa fa-music"></i><a href="index.html">Home</a></li>
+<li id="menu-item"  class="selected"><i class="fa fa-music"></i><a href="about.html">About</a></li>
+<li id="menu-item"><i class="fa fa-music"></i><a href="tcmcartists.php">Artists</a></li>
+<li id="menu-item"><i class="fa fa-music"></i><a href="tcmcnotices.php">Notices</a></li>
+<li id="menu-item"><i class="fa fa-music"></i><a href="admin.php">Members</a></li>
+
+</ul>
+    </div>
+    </div>
+
+
+<div id="content">
+    <div id="content_home">
+    <div id="content_main">
+        <h1>History of the TCMC</h1>
+        <div id="divider"></div>
+        <div class="timeline_banner">
+        <div id="history_circle"><img src="images/circle.png"><span class="history_year">1983</span></div>
+            
+            <div class="history_content"><p>TCMC was established at a public meeting on May 24th. Deputy Mayor, Ken McElligott presented a cheque for $50 from the City Council to cover the Centre's first funds. <br> By June 15th the committee drafted a constitution.
+                <span class="text2">Chairman - Fred Thompson <br></span>
+                <span class="text2">Deputy - Gordon Dean<br></span>
+                <span class="text2">Secretary - Jan Eagleton<br></span></p></div>
+
+        </div>
+        <div class="timeline_banner">
+        <div id="history_circle"><img src="images/circle.png"><span class="history_year">1984</span></div>
+            
+            <div class="history_content"><p>Mira Henderson(Acting Director), who had extensive experience in community music work in England, was the first staff member. She instigated a series of classes starting in 1984 using the skills of people living in Townsville to enhance and encourage music learners of all ages.</p></div>
+
+        </div>
+        
+        <div class="timeline_banner">
+        <div id="history_circle"><img src="images/circle.png"><span class="history_year">1985</span></div>
+            
+            <div class="history_content"><p>Kirsty Veron(First Director). She held this position until 1988 leading the new organisation into a strong position in the Townsville arts community.
+                
+The Music Centre produced its largest major production - Benjamin Britten's Noyes Fludde, in St James Anglican Cathedral.</p></div>
+
+        </div>
+        
+        <div class="timeline_banner">
+        <div id="history_circle"><img src="images/circle.png"><span class="history_year">1987</span></div>
+            
+            <div class="history_content"><p>This was the year of the first fund raising dinner. These dinners became a tradition as they were a wonderful mixture of good food, good wine and good music. The first ones were held at the home of Paul and June Tonnoir in North Ward. Later they moved to the Bishop's Lodge as guests of the Anglican Bishop. Attendees would often book their tickets for the next year's dinner as soon as they had attended this one. They ran until 2004.</p></div>
+
+        </div>
+        
+        <div class="timeline_banner">
+        <div id="history_circle"><img src="images/circle.png"><span class="history_year">1988</span></div>
+            
+            <div class="history_content"><p>Mary Lou Schoenfeldt was appointed as Administrator. Although this was initially a small part time job with limited responsibilities, Mary Lou made the job, the Centre and indeed music in Townsville, her own. She was a wonderful asset to the Centre and to the cultural life of the City until she had to retire due to ill health in 2003.</p></div>
+
+        </div>
+        
+                <div class="timeline_banner">
+        <div id="history_circle"><img src="images/circle.png"><span class="history_year">1990</span></div>
+            
+            <div class="history_content"><p>This year the first lunchtime concert was held at the PercTucker Gallery. The importance of providing performance opportunities for emerging musicians had become evident and from this time, for a number of years, one of the major activities of the Centre was the production and management of concerts.</p></div>
+
+        </div>
+        
+                <div class="timeline_banner">
+        <div id="history_circle"><img src="images/circle.png"><span class="history_year">1999</span></div>
+            
+            <div class="history_content">
+              <p>Arts Queensland had been a major funder of Music Centre activities for a number of years but in this year they agree to provide funding on a three year basis.  This arrangement ran until 2004, it helped the Centre plan ahead and stopped wasted time in repetitive grant applications.</p></div>
+
+        </div>
+                        <div class="timeline_banner">
+        <div id="history_circle"><img src="images/circle.png"><span class="history_year">2003</span></div>
+            
+            <div class="history_content"><p>A spectacular variety concert was held at the Townsville Civic Theatre to celebrate twenty years of the Music Centre and as a tribute to May Lou.</p></div>
+
+        </div>
+                        <div class="timeline_banner">
+        <div id="history_circle"><img src="images/circle.png"><span class="history_year">2005</span></div>
+            
+            <div class="history_content"><p>The Centre moved to offices in the Old Magistrate's Court.</p></div>
+
+        </div>
+                        <div class="timeline_banner">
+        <div id="history_circle"><img src="images/circle.png"><span class="history_year">2012</span></div>
+            
+            <div class="history_content"><p>The Centre moved to its present office in the Townsville Civic Theatre building.</p></div>
+
+        </div>
+</div>
+    <div id="content_sidebar">
+        </div>
+</div>
+</div>
+
+<footer>
+    <div class="footer_main">
+						<div class="footer_main_grid">
+						  <h2>A little about us</h2>
+							<p><span class="color1"> Based in Townsville, North Qld, the Music Centre presents concerts and workshops throughout the year, in a diverse range of genres including classical, jazz, folk, blues, world and contemporary music, featuring touring artists and locally-based professional and emerging artists.</span><br>
+							  With the support of the Townsville City Council, we work from an office in the Civic Theatre building.<br>
+							  (Take the lift near the ticket office to Level 2) <br>
+							  <br>
+"Normal" office hours - <br>
+9.30 -2.30 Monday - Wednesday<br>
+Any other time just call 0402 255 182 </p>
+							
+						</div>
+						
+						<div class="footer_main_grid">
+							<h2>Sponsors</h2>
+							<div class="wrapper">
+									
+										<p><span class="txt1"><a href="https://www.qld.gov.au/index.html"target="_blank"><img src="images/qld_logo.png">QUeensland Government</a></span><br>
+									    The Gambling Community Benefit Fund has assisted us to obtain office equipment and sound and lighting equipment for our productions .</p>
+						  </div>
+							
+							<div class="wrapper hline2">
+									
+									<div class="box">
+										<p class="color2"><span class="txt1"><a href="http://www.townsville.qld.gov.au/Pages/default.aspx"target="_blank"><img src="images/tcc.gif">Townsville City Council</a></span><br>
+										  The Council's Partnerships and Sponsorships scheme provides vital core funding which enables us to maintain the administrative base for all our other activities, and also provides the premises which house our office space. <br>
+									    The Council also assists with the performance venues for our concerts and workshops.</p>
+									</div>
+							</div>
+							
+							<div class="wrapper hline2">
+								<i class="fa fa-music"></i>
+									<div class="box">
+										<p class="color2"><span class="txt1"><a href="#" class="link1">Sponsor us Now</a></span><br>
+									    Our music concerts are well-publicised and well-attended and sponsors enjoy brand exposure throughout the Arts community. We welcome sponsorship or assistance in any form.</p>
+									</div>
+							</div>
+							
+					
+						
+	  </div>
+						
+						<div class="footer_main_grid">
+							<h2>Our team</h2>
+							<div class="banner2">
+                                <div class="contact_grid">
+                                <i class="fa fa-phone"></i></div>
+								<div class="box">
+                                    
+
+
+									<h3><a href="#" class="link1">PHONE</a></h3>
+									<p>07 4742 2086</p>
+                                    <h3>MOBILE</h3>
+                                    <p>0402 255 182</p>
+								</div>
+							</div>
+							
+							<div class="banner2">
+                                <i class="fa fa-laptop"></i>
+								<div class="box">
+									<h3><a href="#" class="link1">EMAIL</a></h3>
+									<p>admin@townsvillemusic.org.au</p>
+								</div>
+							</div>
+							
+							<div class="banner2">
+                                <i class="fa fa-home"></i>
+								<div class="box">
+									<h3><a href="#" class="link1">ADDRESS</a></h3>
+									<p>Townsville Civic Theatre <br>
+                                    41 Boundary Street<br>
+                                    Townsville, QLD 4810</p>
+								</div>
+							</div>
+                            <div class="banner2">
+                                <i class="fa fa-envelope-o"></i>
+								<div class="box">
+									<h3><a href="#" class="link1">ADDRESS</a></h3>
+									<p>PO Box 1006 <br>
+                                    Townsville, QLD 4810</p>
+								</div>
+							</div>							
+						</div>
+			</div>
+    <div class="footer_contact">
+                <div class="footer_right">
+                  <p><em class="fa fa-map-marker" title="Edit"></em> Townsville Civic Theatre 41 Boundary Street Townsville, QLD 4810</p>
+                </div>
+                <div class="footer_left">
+                  <p><em class="fa fa-phone"></em> Call us now:&nbsp;07 4742 2086</p>
+                </div>
+        
+        
+    </div>
+
+
+    
+</footer>
+</body>
+</html>
+
