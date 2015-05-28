@@ -1,11 +1,13 @@
 <?php
 
+$thisPage="contact";
+
 if($_POST['submit']){
 $name = $_POST['name'];
 $email = $_POST['email'];
 $number = $_POST['number'];
 $message = $_POST['message'];
-$myemail = 'karinaa.94@hotmail.com';
+$myemail = 'youremail@example.com';
 $subject = "New Message";
 
 mail($myemail, $subject, $message, "From: ".$name);
@@ -30,22 +32,7 @@ $submitMessage = "Thank-you your message has been sent!";
 </head>
 <body>
 
-    <div id="header" class="header">
-        <div id="logobar">
-    <img id="logo" src="TCMC98Neg.gif">
-<h1>Townsville Community <br> Music Centre</h1>
-</div>
-    <div id="navbar">
-<ul id="topnavbar">
-<li id="menu-item" class="selected"><i class="fa fa-music"></i><a href="index.html">Home</a></li>
-<li id="menu-item"><i class="fa fa-music"></i><a href="about.html">About</a></li>
-<li id="menu-item"><i class="fa fa-music"></i><a href="tcmcartists.php">Artists</a></li>
-<li id="menu-item"><i class="fa fa-music"></i><a href="tcmcnotices.php">Notices</a></li>
-<li id="menu-item"><i class="fa fa-music"></i><a href="admin.php">Members</a></li>
-
-</ul>
-    </div>
-    </div>
+<?php include("header.php"); ?>
     
        <div id="content">
     <div id="content_home">
